@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial;
+	font-size: 18px;
+	line-height: 26px;
+	background-color: rgb(250, 250, 236);
+}
+
+.main .title {
+	font-size: 24px;
+	margin-bottom: 35px;
+	line-height: 42px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 20px;
+	margin-bottom: 24px;
+}
+
+p {
+	margin-bottom: 18px;
+}
+
+.container {
+	width: 80%;
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.align-left {
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	max-width: 50%;
+}
+
+.header,
+.main,
+.footer {
+	padding: 30px;
+}
+.header {
+	background-color: rgb(247, 247, 215);
+	overflow: hidden;
+}
+
+.header .logo img {
+	width: 200px;
+}
+
+.header .logo,
+.header .contacts,
+.footer .contacts,
+.footer .logo {
+	display: inline-block;
+}
+
+.header .contacts,
+.footer .contacts {
+	float: right;
+}
+
+.header .contacts h3,
+.footer .contacts h3 {
+	font-weight: 400;
+	font-size: 16px;
+}
+/* 
+.header .contacts::before {
+	content: " ";
+	width: 30px;
+	height: 30px;
+	background: url("../img/mobile.png");
+	background-size: contain;
+} */
+
+.header .contacts div,
+.footer .contacts div {
+	font-size: 16px;
+}
+
+.navigation {
+	background-color: rgb(253, 253, 224);
+}
+
+.navigation ul {
+	text-align: center;
+	list-style: none;
+}
+
+.navigation li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.navigation a {
+	display: inline-block;
+	padding: 20px 30px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.navigation a:hover {
+	background-color: rgb(247, 240, 204);
+}
+
+.main .container .offer {
+	background-color: rgba(240, 221, 255, 0.3);
+	border: solid red 3px;
+	overflow: hidden;
+	padding: 1%;
+	max-width: 60%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.main .container .offer .img-offer {
+	max-width: 250px;
+	float: left;
+	margin-right: 10px;
+}
+
+.main .container .offer h3 {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.main .container .offer .button {
+	max-width: 30%;
+	text-align: center;
+	margin: 0 0 0 auto;
+	padding: 10px;
+	color: white;
+	border-radius: 3px;
+	background-color: rgb(233, 23, 23);
+}
+
+.main .container .offer a {
+	text-decoration: none;
+}
+
+.main ul {
+	margin-bottom: 10px;
+}
+
+.photo {
+	padding: 20px 20px 20px 23.9px;
+}
+
+.photo .image {
+	display: inline-block;
+	width: calc(33.3% - 20px - 20px);
+	margin: 20px 20px 20px 16.1px;
+}
+
+.photo .image .size {
+	width: 100%;
+	margin-bottom: -3.9px;
+}
+
+.footer {
+	background-color: rgb(199, 176, 148);
+	margin-bottom: 0;
+	overflow: hidden;
+	text-align: center;
+}
